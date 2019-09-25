@@ -1,4 +1,5 @@
 // Bai 1
+/*
 let  i = 10;
 let  f = 20.5;
 let b = true;
@@ -11,11 +12,22 @@ document.write('b = :'+b);
 document.write("<br/>");
 document.write('s = :'+s);
 document.write("<br/>");
+*/
 
 // Bai 2
+/*
 let width = 20;
 let height = 10;
 let area = width * height;
 document.write("area=: " + area);
+*/
 
-
+//Bai 3
+let inputWidth;
+let inputHeight;
+inputWidth = prompt("Enter the Width");
+inputHeight = prompt("Enter the Height");
+let width = parseInt(inputWidth);
+let height = parseInt(inputHeight);
+let area = width * height;
+document.write("The area is: " + area);
